@@ -87,6 +87,9 @@ li a {
     margin-left: 70px;
 }
 
+h1{
+    font-size: 30px;
+}
 #contenedor1 {
     background-color: white;
     margin: auto;

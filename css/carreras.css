@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #encabezado{
@@ -87,57 +87,85 @@ li a {
     margin-left: 70px;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 /* EMPIEZAN PROFESORADOS */
 #seccion3 {
-    display: flex;
+    display: grid;
     grid-template-areas: "prof1 prof2";
 
 }
 
-#tablaprofesorado1 {
-    grid-area: prof1;
+td{
+    border: none;
 }
-
-
-
 .configBoton1{
     border-radius: 10px 10px 10px 10px;
     background-color: #77021a;
-    width: 180px;
+    width: 120px;
     height: 40px;
     font-size: 15px;
     color: white;
 }
 
-/* prueba */
-#tabla1 {
-    margin: auto;
+
+/* TABLA 2 */
+#tabla2 {
+    grid-area: prof1;
     border-collapse: collapse;
-    margin-bottom: -20px;
-}
-.celda1 {
-    width: 320px;
+    margin: auto;
+    width: 70%;
+
 }
 
-.celda2 {
+.celda3 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+
+.celda4 {
     width: 300px;
     text-align: justify;
 }
 
-.imagencss {
-    width: 305px;
-    height: 215px;
+.imagencompu {
+
+    width: 95%;
+    height: 250px;
+    margin-bottom: -3px;
+   
 }
 
-/* #tablaprofesorado2{
+/* TABLA 3 */
+#tabla3 {
     grid-area: prof2;
-    border-collapse: collapse; 
-   
-    width: 520px;
+    border-collapse: collapse;
     margin: auto;
-} */
+    width: 70%;
 
+}
+.celda5 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
 
+.celda6{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagenmate {
+
+    width: 95%;
+    height: 250px;
+    margin-bottom: -3px;
+   
+}
 
 @media screen and (max-width: 800px) {
 
@@ -200,7 +228,12 @@ li a {
         margin-left: -10px;
     }
 
+    #seccion3 {
+        grid-template-areas: "prof1" "prof2";
+        row-gap: 50px;
+
     
+    }
 
 
 
