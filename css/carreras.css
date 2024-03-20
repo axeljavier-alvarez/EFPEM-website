@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#encabezado{
+    background-color: white;
+    height: 100px;
+}
+
+
+/* CONFIGURACION DEL MENU RESPONSIVO*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #77021a;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+.menuLogo {
+    width: 25%;
+    float: right;
+}
+
+/* CONFIGURACION DE TEXTO E IMAGENES */
+
+#redesSociales {
+    float: right;
+}
+
+#titulo1 {
+    color: #EF0A3E;
+    padding: 30px 0px 0px 70px;
+}
+
+
+.logoface {
+    width: 100px;
+}
+
+.logotwitter {
+    width: 100px;
+    height: 100px;
+}
+
+.logoinsta {
+    width: 100px;
+    height: 100px;
+}
+
+#seccion1 {
+    text-align: right
+}
+
+#seccion2 {
+    color: black;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+/* EMPIEZAN PROFESORADOS */
+#seccion3 {
+    display: flex;
+    grid-template-areas: "prof1 prof2";
+
+}
+
+#tablaprofesorado1 {
+    grid-area: prof1;
+}
+
+
+
+.configBoton1{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #77021a;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+}
+
+/* prueba */
+#tabla1 {
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: -20px;
+}
+.celda1 {
+    width: 320px;
+}
+
+.celda2 {
+    width: 300px;
+    text-align: justify;
+}
+
+.imagencss {
+    width: 305px;
+    height: 215px;
+}
+
+/* #tablaprofesorado2{
+    grid-area: prof2;
+    border-collapse: collapse; 
+   
+    width: 520px;
+    margin: auto;
+} */
+
+
+
+@media screen and (max-width: 800px) {
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: white;
+
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #75001b;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+    #seccion1 {
+        text-align: center;
+    }
+
+    #seccion2 {
+        text-align: center;
+        margin-top: 30px;
+        color: black;
+        margin-left: -10px;
+    }
+
+    
+
+
+
+
+
+
+}
