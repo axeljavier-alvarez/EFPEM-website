@@ -196,6 +196,7 @@ footer {
         background-color: #75001b;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        height: 400px;
     }
 
     .nav.visible {
