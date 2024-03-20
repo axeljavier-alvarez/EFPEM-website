@@ -96,6 +96,7 @@ h1 {
 
 }
 
+
 td{
     border: none;
 }
@@ -163,13 +164,148 @@ td{
    
 }
 
-/* TITULO LICENCIATURAS*/
-#seccion4{
+/* */
+#seccion4 {
     color: black;
     margin-top: -60px;
     margin-left: 70px;
 }
 
+/* LICENCIATURAS*/
+
+#seccion5 {
+    display: grid;
+    grid-template-areas: "lic1 lic2";
+}
+
+/* TABLA 4 */
+
+#tabla4{
+    grid-area: lic1;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda7 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda8{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagencompu2 {
+
+    width: 95%;
+    height: 250px;
+    margin-bottom: -3px;   
+}
+
+/* TABLA 5 */
+#tabla5{
+    grid-area: lic2;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda9 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda10{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagenmate2 {
+
+    width: 95%;
+    height: 250px;
+    margin-bottom: -3px;
+   
+}
+/* */
+#seccion6 {
+    color: black;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+/* MAESTRIAS */
+#seccion7 {
+    display: grid;
+    grid-template-areas: "msc1 msc2";
+}
+
+
+
+/*TABLA 6 */
+#tabla6{
+    grid-area: msc1;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda11 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda12{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagencompu3 {
+
+    width: 95%;
+    height: 250px;
+    margin-bottom: -3px;   
+}
+
+/* TABLA 7*/
+#tabla7{
+    grid-area: msc2;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda13 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda14{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagenmate3 {
+
+    width: 95%;
+    height: 250px;
+    margin-bottom: -3px;   
+}
+
+
+
+
+footer {
+    background-color: #75001b;
+    color: white;
+    text-align: center;
+}
 @media screen and (max-width: 800px) {
 
     .abrir-menu,
@@ -238,6 +374,22 @@ td{
 
     #seccion4{
         text-align: center;
+    }
+
+    #seccion5{
+        grid-template-areas: "lic1" "lic2";
+        row-gap: 50px;
+
+    }
+
+    #seccion6{
+        text-align: center;
+    }
+
+    #seccion7{
+        grid-template-areas: "msc1" "msc2";
+        row-gap: 50px;
+
     }
 
 
