@@ -8,7 +8,7 @@ Project done in INTECAP part of the full stack development course, the project i
 
 ### Website
 
-http://axjavierjavier.000.pe/css-efpem
+http://axjavierjavier.000.pe/cssefpem/
 
 ## Developed with
 <p>
