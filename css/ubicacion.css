@@ -82,16 +82,49 @@ li a {
 }
 
 
+/* Seccion 2 */
+#seccion2 {
+    color: #EF0A3E;
+    margin-top: -60px;
+    margin-left: 70px;
+}
 
-
-
+h1{
+    font-size: 30px;
+}
 
 /* SECCION 3*/
+#seccion3{
+    text-align: center;
+    
+}
+
+iframe {
+    max-width: 100%;
+    height: 500px;
+    
+}
 
 
+/* .sec1{
+    width: 50%;
+    height: 400px;
+    grid-area: anun1;
+    margin: auto;
 
+  }
 
+  .celda1 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+} */
 
+#seccion4{
+    color: #EF0A3E;
+    margin-top: -60px;
+    margin-left: 70px;
+}
 
 hr {
     border: none;
@@ -107,6 +140,168 @@ footer {
     background-color: #75001b;
     color: white;
     text-align: center;
+}
+
+/* carrusel */
+:root {
+    --negro: #393939;
+    --blanco: #ececec;
+    --sombra-ppal: #c9c9c9;
+    --sombra-sec: #ffffff;
+    --borde-negro: #00000050;
+    --marcado: rgb(127, 195, 255);
+    /* Tipografía */
+    --tipo-principal: Helvetica, Arial, sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+  }
+
+  .img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .carrusel{
+    display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  }
+  
+  video {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  p a {
+    display: inline;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+
+  table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+  }
+
+  form, input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+            hyphens: auto;
+    background-color: transparent;
+    display: block;
+  }
+
+  .carrusel{
+    
+        font-family: var(--tipo-principal);
+        font-size: 100%;
+        line-height: 1.4em;
+        min-height: 100vh;
+        background-color: var(--blanco);
+        color: var(--negro);
+        -webkit-hyphens: auto;
+                hyphens: auto;
+        font-smooth: always;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+      
+      
+  }
+  
+
+  .carrousel {
+    width: 90%;
+    max-width: 120em;
+    padding: 2em;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+    overflow: hidden;
+  }
+
+  .img{
+    margin: auto;
+  }
+  .carrousel .grande {
+    width: 200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    padding: 2em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+  }
+
+  
+  .carrousel .img {
+    width: calc( 100% / 3 - 2em);
+    min-height: 10vh;
+    color: var(--negro);
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: var(--blanco);
+    box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+
+  .carrousel .puntos {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carrousel .punto {
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .punto.activo {
+  background-color: lightblue;
 }
 
 @media screen and (max-width: 800px) {
@@ -164,9 +359,25 @@ footer {
         text-align: center;
     }
 
+    #seccion2 {
+        text-align: center;
+        margin-top: 30px;
+        color: #EF0A3E;
+        margin-left: -10px;
+    }
 
+    #seccion3{
+        text-align: center;
+    }
 
-
+    #seccion4 {
+        text-align: center;
+        margin-top: 30px;
+        color: #EF0A3E;
+        margin-left: -10px;
+    }
+   
+  
 
 
 
