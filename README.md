@@ -1,17 +1,28 @@
-### Features
-Project done in INTECAP part of the full stack development course, the project is about:
+# M1 RA3 - AAT 01
+## INTECAP
 
-- Creation of EFPEM USAC website
-- Use of CSS for different elements
-- Using JavaScript for page animations
-- Using media queries to make the page responsive
+- Fecha: 08/05/2024
+- Carrera: Desarrollador FullStack
+- Modulo 1 - Resultado de Aprendizaje 3
 
-### Website
+| Plugin | README |
+| ------ | ------ |
+| 2023-023346 | Axel Alvarez |
+
+### Sitio Web
 
 http://axjavierjavier.000.pe/cssefpem/
 
-## Developed with
-<p>
-        <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/01/html5-css3.jpg?resize=498%2C249&ssl=1" width="230" title="hover text">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="100" title="hover text">
-</p>
+
+### Descripcion del proyecto
+> El proyecto cuenta con 4 páginas: Inicio, carreras, información y ubicación.
+
+> Se uso grid para hacer la página responsiva.
+
+> Se usaron mapas de google para poner la ubicación de la universidad.
+> Las tecnologías utilizadas fueron: HTML, CSS (Boostrap) y JavaScript
+
+![HTML](https://img.shields.io/badge/-HTML-2a0505?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-2a0505?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![Boostrap](https://img.shields.io/badge/Bootstrap-black%20?logo=bootstrap)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-2a0505?style=flat&logo=javascript)&nbsp;
